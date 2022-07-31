@@ -2,6 +2,10 @@
   "name": "scratch-starter-project",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "14.17.5",
+    "npm": "6.14.14"
+  }
   "scripts": {
     "start": "webpack serve --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js"
